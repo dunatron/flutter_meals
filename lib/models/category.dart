@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart'; // because color is not provided by flutter but dart
+import 'package:flutter/material.dart';
 
 class Category {
   final String id;
@@ -7,7 +7,7 @@ class Category {
 
   const Category({
     @required this.id,
-    this.title,
+    @required this.title,
     this.color = Colors.orange,
   });
 }
